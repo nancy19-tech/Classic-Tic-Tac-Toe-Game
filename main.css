@@ -1,0 +1,86 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D3DFB8;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Change font family */
+}
+
+h1 {
+    color: #C6A15B;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif; /* Change font family */
+    font-size: 28px; /* Change font size */
+    font-style: italic; /* Change font style to italic */
+}
+
+.Game_container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box_container {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.Box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #F2E86D;
+    font-size: 8vmin;
+    color: #574D68;
+    border: 1.5px solid black;
+    border-radius: 16px;
+}
+
+.Reset-Btn {
+    padding: 6px;
+    background-color: rgb(233, 210, 169);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 20%;
+}
+
+.winner_box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 40px;
+    row-gap: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.Reset-Btn:hover {
+    background-color: rgb(221, 180, 110);
+}
+
+.New_game_btn:hover {
+    background-color: rgb(221, 180, 110);
+}
+
+.New_game_btn {
+    padding: 6px;
+    background-color: rgb(233, 210, 169);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 20%;
+}
